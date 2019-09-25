@@ -15,7 +15,7 @@ const formatData = (data, numCols) => {
   return data
 };
 
-const numCols = 3;
+const numCols = 52;
 
 export default class FullGrid extends React.Component {
   renderItem = ({ item, index }) => {
